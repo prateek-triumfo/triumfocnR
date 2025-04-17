@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background: #F5F7FA;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.regformbg {
+    background-color: #fff;
+    padding: 2rem;
+    width: 600px;
+    margin:0 auto;
+    position: relative;
+    margin-top: 20%;
+    transform: translateY(-50%);
+    border-radius: 12px;
+  }
+  .regformbg input[type='text'],
+  .regformbg input[type='email'],
+  .regformbg input[type='password'] {
+    padding: 10px 25px;
+    margin: 0 0 1rem 0;
+    font-size: 16px;
+    line-height: 28px;
+    outline: none;
+    color: #535353;
+    border-radius:5px;
+    border: 1px solid #f3f3f3;
+    background: #f3f3f3;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .regformbg textarea{
+    display: block;
+    font-size: 1rem;
+    line-height: 24px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    color: #3d3d3d;
+    margin: 15px 0px 0px 0px;
+    background: #fff;
+    text-shadow: none;
+    height: 130px;
+    border: none !important;
+    outline: none;
+    background: #f3f3f3;
+    border-radius:5px;
+  }
+  
+  .regformbg input[type="submit"] {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    width: 200px;
+    background: #b50728;
+    border-radius: 30px;
+    padding: 8px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    outline: none;
+    border: none !important;
+    padding: 15px 30px;
+  }
+  label{
+    font-size: 1rem;
+    line-height: 1;
+    color: #414141;
+  }
